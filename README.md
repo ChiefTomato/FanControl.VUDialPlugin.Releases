@@ -7,7 +7,7 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 
 ## How to install
 1. Download and install [Fan Control](https://getfancontrol.com/)
-2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Release/blob/main/FanControl.VUDialPlugin.zip?raw=true) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins).
+2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/blob/main/FanControl.VUDialPlugin.zip?raw=true) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). 
 3. Download, Install and run [VU-Server](https://github.com/SasaKaranovic/VU-Server)
 4. Open a browser and navigate to the VU-Server web console (Default URL: http://localhost:5340).
   - Ensure that all dials are detected by the VU-Server before proceeding.
