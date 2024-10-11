@@ -1,6 +1,8 @@
 # FanControl.VUDialPlugin.Release
 Plugin for FanControl that updates [Streacoms](https://streacom.com/) [VU1 Dials](https://vudials.com/)
 This plugin registers the VU1 Dials as controls in Fan Control, enabling the pairing of these dials with sensors. Additionally, the plugin registers two sensors: one for CPU load and another for GPU load to use with the dials.
+<br><br>
+![Dials](images/dials.jpg)
 
 ## Disclaimer
 **Use this software at your own risk. It has been tested solely on my personal setup, and there may be aspects that I have missed or overlooked.**
@@ -8,6 +10,8 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 ## How to install
 1. Download and install [Fan Control](https://getfancontrol.com/)
 2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/releases/download/v002/FanControl.VUDialPlugin.zip) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). You might need to unblock all DLL files in their file properties.
+<br><br>
+![Unblock properites](images/unblock.png)
 3. Download, Install and run [VU-Server](https://github.com/SasaKaranovic/VU-Server)
 4. Open a browser and navigate to the VU-Server web console (Default URL: http://localhost:5340).
   - Ensure that all dials are detected by the VU-Server before proceeding.
@@ -31,6 +35,8 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 6. Launch Fan control
   - Your dials should now appear as fan cards (controls) in the Fan Control interface.
   - For each dial (Control), create a Curve using the sensor you want as input. Adjust the curve and values to match your preference. Please refer to the [Fan Control documenation](https://getfancontrol.com/docs/) for details on this.
+  <br><br>
+![Fan Control view](images/fancontrol.png)
 
 ## Troubleshooting tips
 - Quit and restart Fan Control. Make sure it is not running in the background. Make sure that you follow the setup sequentially and that the dial naming from the VU Server is 1:1 the same as in the configuration file.
