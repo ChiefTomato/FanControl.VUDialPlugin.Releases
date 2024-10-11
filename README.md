@@ -7,6 +7,13 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 ## Disclaimer
 **Use this software at your own risk. It has been tested solely on my personal setup, and there may be aspects that I have missed or overlooked.**
 
+## Features
+- Injects VU Dials into Fan Control as controls so they can be mapped to sensor values.
+- Injects Performance counters as sensors for CPU and GPU utilization percentage.
+- Set background images on dials through configuration.
+- Control lightning color on dials.
+- (Simple) Dynamic lightning feature that adjusts the color tint of the dial when its values approach the extremes.
+
 ## How to install
 1. Download and install [Fan Control](https://getfancontrol.com/)
 2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/releases/download/v002/FanControl.VUDialPlugin.zip) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). You might need to unblock all DLL files in their file properties.
