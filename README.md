@@ -32,12 +32,17 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
   - In the dialConfigurations make sure that you have a configuration section for each of your dials.
   -     {
             "Name": "VU1-Dial-Hub",
-            "DefaultColor": "#646464",
-            "Background": "cpu-load.png"
-        }  
+            "DefaultColor": "#CC6600",
+            "Background": "cpu-load.png",
+            "DynamicLightning": "true",
+            "DynamicLightningLowerTreshold": "30",
+            "DynamicLightningLowerColor": "#008000",
+            "DynamicLightningUpperTreshold": "70",
+            "DynamicLightningUpperColor": "#FF0000"
+        }
   - Each dial configuration section must have a unique name that corresponds to the name of the dial in VU-Server.
   - You can specify the background image to be used for each dial. Images should be placed in the image folder alongside the plugin.
-  - You can specify the default color for each dial. Note, this will be overridden if DynamicLightning is set to true.
+  - You can specify the default color for each dial and set up dynamic lightning.
    
 6. Launch Fan control
   - Your dials should now appear as fan cards (controls) in the Fan Control interface.
