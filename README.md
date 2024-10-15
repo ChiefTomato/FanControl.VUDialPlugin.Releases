@@ -8,17 +8,17 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 **Use this software at your own risk. It has been tested solely on my personal setup, and there may be aspects that I have missed or overlooked.**
 
 ## Features
-- Injects VU Dials into Fan Control as controls so they can be mapped to sensor values.
-- Injects Performance counters as sensors for CPU and GPU utilization percentage.
-- Set background images on dials through configuration.
+- Injects VU Dials into Fan Control as controls to be updated by sensor input.
+- Injects Performance counters as sensors for CPU and GPU utilization percentage. Can be turned off in configuration.
+- Make your own background images for the dials and assign them to dials through configuration.
 - Control lightning color on dials.
-- (Simple) Dynamic lightning feature that adjusts the color tint of the dial when its values approach the extremes.
+- Dynamic lightning feature that adjusts the color tint of the dial when its values approach the extremes.
 
 ## How to install
 1. Download and install [Fan Control](https://getfancontrol.com/)
-2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/releases/download/v002/FanControl.VUDialPlugin.zip) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). You might need to unblock all DLL files in their file properties.
+2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/releases/download/v003/FanControl.VUDialPlugin.zip) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). You might need to unblock all DLL files in their file properties.
 <br><br>
-![Unblock properites](images/unblock.png)
+![Unblock properties](images/unblock.png)
 3. Download, Install and run [VU-Server](https://github.com/SasaKaranovic/VU-Server)
 4. Open a browser and navigate to the VU-Server web console (Default URL: http://localhost:5340).
   - Ensure that all dials are detected by the VU-Server before proceeding.
@@ -37,11 +37,11 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
         }  
   - Each dial configuration section must have a unique name that corresponds to the name of the dial in VU-Server.
   - You can specify the background image to be used for each dial. Images should be placed in the image folder alongside the plugin.
-  - You can specify the default color for each dial. Note, this will be overriden if DynamicLightning is set to true.
+  - You can specify the default color for each dial. Note, this will be overridden if DynamicLightning is set to true.
    
 6. Launch Fan control
   - Your dials should now appear as fan cards (controls) in the Fan Control interface.
-  - For each dial (Control), create a Curve using the sensor you want as input. Adjust the curve and values to match your preference. Please refer to the [Fan Control documenation](https://getfancontrol.com/docs/) for details on this.
+  - For each dial (Control), create a Curve using the sensor you want as input. Adjust the curve and values to match your preference. Please refer to the [Fan Control documentation](https://getfancontrol.com/docs/) for details on this.
   <br><br>
 ![Fan Control view](images/fancontrol.png)
 
@@ -53,6 +53,6 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 
 ## Why use Fan Control to drive the VU1 dials?
 - Fan Control is a great piece of software with simple and easy to use plugin architecture. Go support Rémi Mercier on the continued development of Fan Control.
-- It has a control/sensor structure that maps great to the VU Dail use case.
+- It has a control/sensor structure that maps great to the VU Dial use case.
 - I'm already using Fan Control and I don't need another program to run in the background to control my dials.
-- A HWInfo plugin exists for Fancontrol, so it should be possible to use HWInfo sensors as source for VU Dail through the plugin.
+- A HWInfo plugin exists for Fan Control, so it should be possible to use HWInfo sensors as source for VU Dial through the plugin.
