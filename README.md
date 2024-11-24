@@ -61,3 +61,6 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 - It has a control/sensor structure that maps great to the VU Dial use case.
 - I'm already using Fan Control and I don't need another program to run in the background to control my dials.
 - A HWInfo plugin exists for Fan Control, so it should be possible to use HWInfo sensors as source for VU Dial through the plugin.
+
+## Setup picture
+![Setup](images/build.jpg)
