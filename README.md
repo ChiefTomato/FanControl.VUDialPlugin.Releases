@@ -15,7 +15,7 @@ This plugin registers the VU1 Dials as controls in Fan Control, enabling the pai
 - Dynamic lightning feature that adjusts the color tint of the dial when its values approach the extremes.
 
 ## How to install
-1. Download and install [Fan Control](https://getfancontrol.com/)
+1. Download and install [Fan Control](https://getfancontrol.com/) - **Make sure to install the .net 8.0 version!**
 2. Download, extract and copy all [Fan Control plugin files](https://github.com/ChiefTomato/FanControl.VUDialPlugin.Releases/releases/download/V003/FanControl.VUDialPlugin.zip) to the Fan Control plugin folder (typically C:\Program Files (x86)\FanControl\Plugins). You might need to unblock all DLL files in their file properties.
 <br><br>
 ![Unblock properties](images/unblock.png)
